@@ -1,0 +1,44 @@
+name: Update Profile Art
+
+# Runs daily to refresh ONLY the contribution heatmap panel.
+#
+# The hero banner, neofetch card and stack panel are hand-authored -- their
+# content lives in the scripts themselves, so there's nothing for a cron to
+# discover. Regenerate those locally when you change them:
+#     python scripts/build_all.py --static
+
+on:
+  schedule:
+    # 06:17 UTC daily (off-the-hour to avoid GitHub Actions cron pile-up)
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}  # allows manual "Run workflow" trigger too
+
+permissions:
+  contents: write
+
+jobs:
+  update-heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch latest contribution data
+        run: python scripts/fetch_contributions.py --username Thunderx10
+
+      - name: Render heatmap SVG
+        run: python scripts/render_heatmap_svg.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution heatmap [skip ci]"
+          file_pattern: "contrib-heatmap.svg data/contributions.json"
