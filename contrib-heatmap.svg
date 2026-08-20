@@ -23,7 +23,7 @@
     <text x="46.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">total</text>
     <text x="46.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">12</text>
+          font-weight="bold" fill="#e6edf3">74</text>
     <text x="207.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
           fill="#484f58" text-anchor="end">past year</text>
   </g>
@@ -40,7 +40,7 @@
     <text x="249.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">current streak</text>
     <text x="249.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">0</text>
+          font-weight="bold" fill="#e6edf3">1</text>
     <text x="410.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
           fill="#484f58" text-anchor="end">days</text>
   </g>
@@ -57,7 +57,7 @@
     <text x="452.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">longest streak</text>
     <text x="452.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">3</text>
+          font-weight="bold" fill="#e6edf3">6</text>
     <text x="613.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
           fill="#484f58" text-anchor="end">days</text>
   </g>
@@ -74,9 +74,9 @@
     <text x="655.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">best day</text>
     <text x="655.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">7</text>
+          font-weight="bold" fill="#e6edf3">13</text>
     <text x="816.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
-          fill="#484f58" text-anchor="end">2026-07-17</text>
+          fill="#484f58" text-anchor="end">2025-12-14</text>
   </g>
   <text x="56" y="146" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
         fill="#484f58">Aug</text>
@@ -1182,8 +1182,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="294" y="155" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-14</title>
+        fill="#39d353" opacity="0">
+    <title>13 contributions on 2025-12-14</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.687s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="155" to="158" begin="0.687s"
@@ -1191,8 +1191,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="294" y="169" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-15</title>
+        fill="#39d353" opacity="0">
+    <title>10 contributions on 2025-12-15</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.698s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="169" to="172" begin="0.698s"
@@ -1200,8 +1200,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="294" y="183" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-16</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2025-12-16</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.709s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="183" to="186" begin="0.709s"
@@ -1209,8 +1209,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="294" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-17</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2025-12-17</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.72s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.72s"
@@ -1218,8 +1218,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="294" y="211" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-18</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2025-12-18</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.731s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="211" to="214" begin="0.731s"
@@ -1272,8 +1272,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="308" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2025-12-24</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2025-12-24</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.731s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.731s"
@@ -1389,8 +1389,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="336" y="183" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-06</title>
+        fill="#006d32" opacity="0">
+    <title>3 contributions on 2026-01-06</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.742s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="183" to="186" begin="0.742s"
@@ -1398,8 +1398,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="336" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-07</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-01-07</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.753s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.753s"
@@ -1416,8 +1416,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="336" y="225" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-09</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2026-01-09</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.775s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="225" to="228" begin="0.775s"
@@ -1434,8 +1434,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="350" y="155" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-11</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2026-01-11</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.731s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="155" to="158" begin="0.731s"
@@ -1461,8 +1461,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="350" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-14</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-01-14</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.764s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.764s"
@@ -1479,8 +1479,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="350" y="225" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-16</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-01-16</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.786s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="225" to="228" begin="0.786s"
@@ -1587,8 +1587,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="378" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-28</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-01-28</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.786s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.786s"
@@ -1596,8 +1596,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="378" y="211" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-01-29</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2026-01-29</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.797s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="211" to="214" begin="0.797s"
@@ -1839,8 +1839,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="434" y="197" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-02-25</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-02-25</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.83s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="0.83s"
@@ -1848,8 +1848,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="434" y="211" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-02-26</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-02-26</title>
     <animate attributeName="opacity" from="0" to="1" begin="0.841s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="211" to="214" begin="0.841s"
@@ -3027,8 +3027,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="700" y="183" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-07-07</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-07-07</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.028s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="183" to="186" begin="1.028s"
@@ -3036,8 +3036,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="700" y="197" width="11" height="11" rx="2.5"
-        fill="#0e4429" opacity="0">
-    <title>1 contributions on 2026-07-08</title>
+        fill="#006d32" opacity="0">
+    <title>4 contributions on 2026-07-08</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.039s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="197" to="200" begin="1.039s"
@@ -3072,8 +3072,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="714" y="155" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-07-12</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2026-07-12</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.017s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="155" to="158" begin="1.017s"
@@ -3117,8 +3117,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="714" y="225" width="11" height="11" rx="2.5"
-        fill="#26a641" opacity="0">
-    <title>7 contributions on 2026-07-17</title>
+        fill="#39d353" opacity="0">
+    <title>10 contributions on 2026-07-17</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.072s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="225" to="228" begin="1.072s"
@@ -3126,8 +3126,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="714" y="239" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-07-18</title>
+        fill="#26a641" opacity="0">
+    <title>6 contributions on 2026-07-18</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.083s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="239" to="242" begin="1.083s"
@@ -3135,8 +3135,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="728" y="155" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-07-19</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-07-19</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.028s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="155" to="158" begin="1.028s"
@@ -3144,8 +3144,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="728" y="169" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-07-20</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-07-20</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.039s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="169" to="172" begin="1.039s"
@@ -3423,8 +3423,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="784" y="211" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-08-20</title>
+        fill="#0e4429" opacity="0">
+    <title>1 contributions on 2026-08-20</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.116s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="211" to="214" begin="1.116s"
