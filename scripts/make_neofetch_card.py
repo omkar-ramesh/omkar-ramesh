@@ -40,7 +40,8 @@ ROWS = [
     ("Role", "AI Engineer & Founder"),
     ("Company", "Oniqutes Digital Solutions"),
     ("Stack", "Python • Next.js • ComfyUI • Ollama • Flux"),
-    ("Hardware", "RTX 5090 + Mac Mini M4"),
+    # Hardware intentionally omitted -- it has its own panel now
+    # (hardware-panel.svg), with pixel art instead of a text row.
     ("Focus", "Local AI Agents • Client Web Apps • LoRA Training"),
     ("Location", "India"),
 ]

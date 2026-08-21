@@ -16,7 +16,9 @@ import sys
 
 import make_hero_banner
 import make_neofetch_card
+import make_agency_panel
 import make_knowledge_panel
+import make_hardware_panel
 import fetch_contributions
 import render_heatmap_svg
 
@@ -30,7 +32,9 @@ def main():
 
     make_hero_banner.main()
     make_neofetch_card.main()
+    make_agency_panel.main()
     make_knowledge_panel.main()
+    make_hardware_panel.main()
 
     if args.static:
         print("(skipped heatmap -- --static)")

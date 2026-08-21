@@ -35,12 +35,21 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_PATH = os.path.join(REPO_ROOT, "knowledge-panel.svg")
 
 # (category label, accent color, [topics])
+#
+# Order matters: masonry places cards in sequence into whichever column is
+# shortest, so earlier entries land nearer the top. Sequenced by hiring
+# signal -- the categories that most differentiate an AI engineer sit
+# first, generic tooling last. Labels use the terms that actually appear
+# in job postings ("model training & fine-tuning", not "models & stuff")
+# since profiles get keyword-scanned before a human ever reads them.
+#
+# Hardware moved out to hardware-panel.svg.
 CATEGORIES = [
-    ("agent orchestration", GREEN, [
+    ("agent engineering", GREEN, [
+        "agent orchestration",
         "sub-agents",
         "parallel agents",
         "background agents",
-        "agents managing agents",
         "multi-repo orchestration",
         "headless runs",
     ]),
@@ -54,30 +63,30 @@ CATEGORIES = [
     ]),
     ("context engineering", PURPLE, [
         "context windows",
-        "tokens",
-        "prompting",
+        "prompt engineering",
         "prompt caching",
+        "token optimization",
         "progressive disclosure",
         "extended thinking",
     ]),
-    ("memory & feedback", YELLOW, [
-        "memory consolidation",
-        "self-improving loops",
+    ("model training & fine-tuning", PINK, [
+        "LoRA training",
+        "RLHF",
+        "LLMs",
+        "Flux",
+        "ComfyUI",
+        "Ollama / local inference",
+    ]),
+    ("evals & feedback loops", YELLOW, [
         "eval-driven loops",
+        "self-improving loops",
+        "memory consolidation",
     ]),
     ("reliability & security", ORANGE, [
         "self-healing tests",
         "agents in CI/CD",
         "tool-poisoning defense",
         "API key hygiene",
-    ]),
-    ("models & training", PINK, [
-        "LLMs",
-        "RLHF",
-        "LoRA training",
-        "Flux",
-        "Ollama",
-        "ComfyUI",
     ]),
     ("automation", GREEN, [
         "n8n",
@@ -90,10 +99,6 @@ CATEGORIES = [
         "React",
         "git worktrees",
         "markdown / docs",
-    ]),
-    ("hardware", ORANGE, [
-        "RTX 5090",
-        "Mac Mini M4",
     ]),
 ]
 

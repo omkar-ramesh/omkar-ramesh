@@ -21,7 +21,7 @@
           fill="#010409" stroke="#21262d" stroke-width="1" />
     <rect x="30.0" y="60" width="256.0" height="2.5" rx="1.25" fill="#39d353" />
     <text x="43.0" y="90" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="11.5" font-weight="bold" fill="#39d353">agent orchestration</text>
+          font-size="11.5" font-weight="bold" fill="#39d353">agent engineering</text>
     <text x="273.0" y="90" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="10" fill="#484f58" text-anchor="end">6</text>
     <line x1="43.0" y1="99" x2="273.0"
@@ -29,19 +29,19 @@
     <text x="43.0" y="106" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="106" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">sub-agents</text>
+          fill="#e6edf3">agent orchestration</text>
     <text x="43.0" y="125" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="125" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">parallel agents</text>
+          fill="#e6edf3">sub-agents</text>
     <text x="43.0" y="144" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="144" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">background agents</text>
+          fill="#e6edf3">parallel agents</text>
     <text x="43.0" y="163" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="163" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">agents managing agents</text>
+          fill="#e6edf3">background agents</text>
     <text x="43.0" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
@@ -115,15 +115,15 @@
     <text x="587.0" y="125" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="125" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">tokens</text>
+          fill="#e6edf3">prompt engineering</text>
     <text x="587.0" y="144" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="144" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">prompting</text>
+          fill="#e6edf3">prompt caching</text>
     <text x="587.0" y="163" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="163" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">prompt caching</text>
+          fill="#e6edf3">token optimization</text>
     <text x="587.0" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="182" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
@@ -140,27 +140,39 @@
                       from="0,8" to="0,0" begin="0.42s" dur="0.45s"
                       fill="freeze" calcMode="spline"
                       keySplines="0.22 0.61 0.36 1" />
-    <rect x="30.0" y="233" width="256.0" height="102" rx="9"
+    <rect x="30.0" y="233" width="256.0" height="159" rx="9"
           fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="30.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#f2cc60" />
+    <rect x="30.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#ff7b9c" />
     <text x="43.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="11.5" font-weight="bold" fill="#f2cc60">memory &amp; feedback</text>
+          font-size="11.5" font-weight="bold" fill="#ff7b9c">model training &amp; fine-tuning</text>
     <text x="273.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="10" fill="#484f58" text-anchor="end">3</text>
+          font-size="10" fill="#484f58" text-anchor="end">6</text>
     <line x1="43.0" y1="272" x2="273.0"
           y2="272" stroke="#21262d" stroke-width="1" />
     <text x="43.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">memory consolidation</text>
+          fill="#e6edf3">LoRA training</text>
     <text x="43.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="63.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">self-improving loops</text>
+          fill="#e6edf3">RLHF</text>
     <text x="43.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">└─</text>
+          fill="#484f58">├─</text>
     <text x="63.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">eval-driven loops</text>
+          fill="#e6edf3">LLMs</text>
+    <text x="43.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#484f58">├─</text>
+    <text x="63.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">Flux</text>
+    <text x="43.0" y="355" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#484f58">├─</text>
+    <text x="63.0" y="355" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">ComfyUI</text>
+    <text x="43.0" y="374" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#484f58">└─</text>
+    <text x="63.0" y="374" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">Ollama / local inference</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.51s"
@@ -169,31 +181,27 @@
                       from="0,8" to="0,0" begin="0.51s" dur="0.45s"
                       fill="freeze" calcMode="spline"
                       keySplines="0.22 0.61 0.36 1" />
-    <rect x="302.0" y="233" width="256.0" height="121" rx="9"
+    <rect x="302.0" y="233" width="256.0" height="102" rx="9"
           fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="302.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#ffa657" />
+    <rect x="302.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#f2cc60" />
     <text x="315.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="11.5" font-weight="bold" fill="#ffa657">reliability &amp; security</text>
+          font-size="11.5" font-weight="bold" fill="#f2cc60">evals &amp; feedback loops</text>
     <text x="545.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="10" fill="#484f58" text-anchor="end">4</text>
+          font-size="10" fill="#484f58" text-anchor="end">3</text>
     <line x1="315.0" y1="272" x2="545.0"
           y2="272" stroke="#21262d" stroke-width="1" />
     <text x="315.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="335.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">self-healing tests</text>
+          fill="#e6edf3">eval-driven loops</text>
     <text x="315.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="335.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">agents in CI/CD</text>
+          fill="#e6edf3">self-improving loops</text>
     <text x="315.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">├─</text>
-    <text x="335.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">tool-poisoning defense</text>
-    <text x="315.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">└─</text>
-    <text x="335.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">API key hygiene</text>
+    <text x="335.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">memory consolidation</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.6s"
@@ -202,39 +210,31 @@
                       from="0,8" to="0,0" begin="0.6s" dur="0.45s"
                       fill="freeze" calcMode="spline"
                       keySplines="0.22 0.61 0.36 1" />
-    <rect x="574.0" y="233" width="256.0" height="159" rx="9"
+    <rect x="574.0" y="233" width="256.0" height="121" rx="9"
           fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="574.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#ff7b9c" />
+    <rect x="574.0" y="233" width="256.0" height="2.5" rx="1.25" fill="#ffa657" />
     <text x="587.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="11.5" font-weight="bold" fill="#ff7b9c">models &amp; training</text>
+          font-size="11.5" font-weight="bold" fill="#ffa657">reliability &amp; security</text>
     <text x="817.0" y="263" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="10" fill="#484f58" text-anchor="end">6</text>
+          font-size="10" fill="#484f58" text-anchor="end">4</text>
     <line x1="587.0" y1="272" x2="817.0"
           y2="272" stroke="#21262d" stroke-width="1" />
     <text x="587.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="279" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">LLMs</text>
+          fill="#e6edf3">self-healing tests</text>
     <text x="587.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="298" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">RLHF</text>
+          fill="#e6edf3">agents in CI/CD</text>
     <text x="587.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="317" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">LoRA training</text>
+          fill="#e6edf3">tool-poisoning defense</text>
     <text x="587.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">├─</text>
-    <text x="607.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">Flux</text>
-    <text x="587.0" y="355" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">├─</text>
-    <text x="607.0" y="355" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">Ollama</text>
-    <text x="587.0" y="374" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">└─</text>
-    <text x="607.0" y="374" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">ComfyUI</text>
+    <text x="607.0" y="336" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">API key hygiene</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.69s"
@@ -243,26 +243,26 @@
                       from="0,8" to="0,0" begin="0.69s" dur="0.45s"
                       fill="freeze" calcMode="spline"
                       keySplines="0.22 0.61 0.36 1" />
-    <rect x="30.0" y="349" width="256.0" height="102" rx="9"
+    <rect x="302.0" y="349" width="256.0" height="102" rx="9"
           fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="30.0" y="349" width="256.0" height="2.5" rx="1.25" fill="#39d353" />
-    <text x="43.0" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
+    <rect x="302.0" y="349" width="256.0" height="2.5" rx="1.25" fill="#39d353" />
+    <text x="315.0" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="11.5" font-weight="bold" fill="#39d353">automation</text>
-    <text x="273.0" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
+    <text x="545.0" y="379" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="10" fill="#484f58" text-anchor="end">3</text>
-    <line x1="43.0" y1="388" x2="273.0"
+    <line x1="315.0" y1="388" x2="545.0"
           y2="388" stroke="#21262d" stroke-width="1" />
-    <text x="43.0" y="395" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="315.0" y="395" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
-    <text x="63.0" y="395" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="335.0" y="395" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#e6edf3">n8n</text>
-    <text x="43.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="315.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
-    <text x="63.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="335.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#e6edf3">workflow automation</text>
-    <text x="43.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="315.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">└─</text>
-    <text x="63.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="335.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#e6edf3">scheduled agents</text>
   </g>
   <g opacity="0">
@@ -272,61 +272,36 @@
                       from="0,8" to="0,0" begin="0.78s" dur="0.45s"
                       fill="freeze" calcMode="spline"
                       keySplines="0.22 0.61 0.36 1" />
-    <rect x="302.0" y="368" width="256.0" height="140" rx="9"
+    <rect x="574.0" y="368" width="256.0" height="140" rx="9"
           fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="302.0" y="368" width="256.0" height="2.5" rx="1.25" fill="#79c0ff" />
-    <text x="315.0" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
+    <rect x="574.0" y="368" width="256.0" height="2.5" rx="1.25" fill="#79c0ff" />
+    <text x="587.0" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="11.5" font-weight="bold" fill="#79c0ff">build stack</text>
-    <text x="545.0" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
+    <text x="817.0" y="398" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
           font-size="10" fill="#484f58" text-anchor="end">5</text>
-    <line x1="315.0" y1="407" x2="545.0"
+    <line x1="587.0" y1="407" x2="817.0"
           y2="407" stroke="#21262d" stroke-width="1" />
-    <text x="315.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="587.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
-    <text x="335.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="607.0" y="414" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#e6edf3">Python</text>
-    <text x="315.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="587.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
-    <text x="335.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+    <text x="607.0" y="433" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#e6edf3">Next.js</text>
-    <text x="315.0" y="452" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">├─</text>
-    <text x="335.0" y="452" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">React</text>
-    <text x="315.0" y="471" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">├─</text>
-    <text x="335.0" y="471" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">git worktrees</text>
-    <text x="315.0" y="490" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">└─</text>
-    <text x="335.0" y="490" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">markdown / docs</text>
-  </g>
-  <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.87s"
-             dur="0.45s" fill="freeze" />
-    <animateTransform attributeName="transform" type="translate"
-                      from="0,8" to="0,0" begin="0.87s" dur="0.45s"
-                      fill="freeze" calcMode="spline"
-                      keySplines="0.22 0.61 0.36 1" />
-    <rect x="574.0" y="406" width="256.0" height="83" rx="9"
-          fill="#010409" stroke="#21262d" stroke-width="1" />
-    <rect x="574.0" y="406" width="256.0" height="2.5" rx="1.25" fill="#ffa657" />
-    <text x="587.0" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="11.5" font-weight="bold" fill="#ffa657">hardware</text>
-    <text x="817.0" y="436" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace"
-          font-size="10" fill="#484f58" text-anchor="end">2</text>
-    <line x1="587.0" y1="445" x2="817.0"
-          y2="445" stroke="#21262d" stroke-width="1" />
     <text x="587.0" y="452" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
           fill="#484f58">├─</text>
     <text x="607.0" y="452" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">RTX 5090</text>
+          fill="#e6edf3">React</text>
     <text x="587.0" y="471" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#484f58">└─</text>
+          fill="#484f58">├─</text>
     <text x="607.0" y="471" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
-          fill="#e6edf3">Mac Mini M4</text>
+          fill="#e6edf3">git worktrees</text>
+    <text x="587.0" y="490" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#484f58">└─</text>
+    <text x="607.0" y="490" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5"
+          fill="#e6edf3">markdown / docs</text>
   </g>
   <text x="30" y="534" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
-        fill="#484f58">9 directories, 41 files</text>
+        fill="#484f58">8 directories, 39 files</text>
 </svg>

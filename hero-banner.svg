@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="215"
      viewBox="0 0 860 215" role="img" aria-label="thunderx10 — ~/profile">
-  <defs><linearGradient id="wordmark-grad" gradientUnits="userSpaceOnUse" x1="119.5" y1="0" x2="740.5" y2="0"><stop offset="0" stop-color="#39d353" /><stop offset="0.5" stop-color="#79c0ff" /><stop offset="1" stop-color="#bc8cff" /></linearGradient></defs>
+  <defs><linearGradient id="wordmark-grad" gradientUnits="userSpaceOnUse" x1="119.5" y1="0" x2="740.5" y2="0"><stop offset="0" stop-color="#39d353" /><stop offset="0.5" stop-color="#79c0ff" /><stop offset="1" stop-color="#bc8cff" /></linearGradient><linearGradient id="shine-grad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0" /><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.7" /><stop offset="1" stop-color="#ffffff" stop-opacity="0" /></linearGradient></defs>
   <rect x="0.75" y="0.75" width="858.5" height="213.5" rx="12"
         fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
   <line x1="0" y1="38" x2="860" y2="38" stroke="#21262d" stroke-width="1" />
@@ -64,6 +64,16 @@
   <g clip-path="url(#hero-row-4)">
     <text x="119.5" y="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15"
           fill="url(#wordmark-grad)" xml:space="preserve">  ██   ██  ██ ██████ ██  ██ █████  ██████ ██  ██ ██  ██ ██████ ██████</text>
+  </g>
+  <clipPath id="wordmark-clip"><text x="119.5" y="72" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" xml:space="preserve">██████ ██  ██ ██  ██ ██  ██ █████  ██████ █████  ██  ██   ██   ██████</text><text x="119.5" y="87" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" xml:space="preserve">  ██   ██  ██ ██  ██ ███ ██ ██  ██ ██     ██  ██  ████   ███   ██  ██</text><text x="119.5" y="102" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" xml:space="preserve">  ██   ██████ ██  ██ ██████ ██  ██ █████  █████    ██     ██   ██  ██</text><text x="119.5" y="117" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" xml:space="preserve">  ██   ██  ██ ██  ██ ██ ███ ██  ██ ██     ██  ██  ████    ██   ██  ██</text><text x="119.5" y="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" xml:space="preserve">  ██   ██  ██ ██████ ██  ██ █████  ██████ ██  ██ ██  ██ ██████ ██████</text></clipPath>
+  <g clip-path="url(#wordmark-clip)">
+    <rect x="9.5" y="53"
+          width="110" height="85"
+          fill="url(#shine-grad)">
+      <animate attributeName="x" values="9.5;740.5;740.5"
+               keyTimes="0;0.32;1" dur="4.2s" begin="1.35s"
+               repeatCount="indefinite" />
+    </rect>
   </g>
   <clipPath id="hero-tagline">
     <rect x="119.5" y="168" width="0" height="21">
