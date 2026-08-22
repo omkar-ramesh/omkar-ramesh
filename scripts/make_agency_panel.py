@@ -148,22 +148,28 @@ def chip_art(x, y, accent):
             + pulse(CHIP_CORE, pal, x, y, PX, dur=1.9, lo=0.22))
 
 
+# Matches the services actually listed on oniqutes.com (checked
+# directly, not inferred) -- Web Development, App Development,
+# Conversational Agents & Chatbots, and Workflow Automation, condensed
+# to the three that fit an engineering-facing GitHub profile. The site
+# also lists Business & Marketing and Business Strategy, which are
+# sales-page content rather than build work, so they're left off here.
 SERVICES = [
     {
-        "title": "AI Agents",
-        "desc": "Local-first agents and\nautomation pipelines",
+        "title": "AI Agents & Chatbots",
+        "desc": "Conversational agents and\ncustom automation",
         "accent": GREEN,
         "art": bot_art,
     },
     {
-        "title": "Web Applications",
-        "desc": "Client web apps built\non Next.js and React",
+        "title": "Web & App Development",
+        "desc": "Corporate sites, web apps,\nand native applications",
         "accent": CYAN,
         "art": browser_art,
     },
     {
-        "title": "Model Training",
-        "desc": "LoRA fine-tuning and\ncustom model pipelines",
+        "title": "Workflow Automation",
+        "desc": "n8n pipelines and\nCRM automation",
         "accent": PINK,
         "art": chip_art,
     },
