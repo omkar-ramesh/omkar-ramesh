@@ -23,7 +23,7 @@
     <text x="46.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">total</text>
     <text x="46.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">77</text>
+          font-weight="bold" fill="#e6edf3">79</text>
     <text x="207.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
           fill="#484f58" text-anchor="end">past year</text>
   </g>
@@ -40,7 +40,7 @@
     <text x="249.0" y="77" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10.5"
           fill="#484f58">current streak</text>
     <text x="249.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19"
-          font-weight="bold" fill="#e6edf3">2</text>
+          font-weight="bold" fill="#e6edf3">3</text>
     <text x="410.0" y="98" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
           fill="#484f58" text-anchor="end">days</text>
   </g>
@@ -3441,8 +3441,8 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <rect x="784" y="239" width="11" height="11" rx="2.5"
-        fill="#161b22" opacity="0">
-    <title>0 contributions on 2026-08-22</title>
+        fill="#0e4429" opacity="0">
+    <title>2 contributions on 2026-08-22</title>
     <animate attributeName="opacity" from="0" to="1" begin="1.138s"
              dur="0.3s" fill="freeze" />
     <animate attributeName="y" from="239" to="242" begin="1.138s"
@@ -3450,7 +3450,7 @@
              keySplines="0.22 0.61 0.36 1" />
   </rect>
   <text x="30" y="282" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
-        fill="#484f58">updated 2026-08-21 · auto-refreshed daily</text>
+        fill="#484f58">updated 2026-08-22 · auto-refreshed daily</text>
   <text x="666" y="282" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="10"
         fill="#484f58">Less</text>
   <rect x="698" y="273" width="11" height="11" rx="2.5" fill="#161b22" />
