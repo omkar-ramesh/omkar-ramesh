@@ -3,7 +3,7 @@ make_hero_banner.py
 -------------------
 Renders hero-banner.svg -- the masthead of the profile.
 
-A block-capital ASCII wordmark ("THUNDERX10") drawn in an ANSI-shadow
+A block-capital ASCII wordmark ("OMKAR RAMESH") drawn in an ANSI-shadow
 style font, revealed row by row with a left-to-right wipe, filled with a
 single user-space gradient so the color sweeps across the whole wordmark
 rather than repeating per glyph. Underneath, a prompt line types itself
@@ -27,7 +27,7 @@ from theme import (
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_PATH = os.path.join(REPO_ROOT, "hero-banner.svg")
 
-WORDMARK = "THUNDERX10"
+WORDMARK = "OMKAR RAMESH"
 TAGLINE = "AI Engineer & Founder  ::  Oniqutes Digital Solutions"
 
 FONT_SIZE = 15
@@ -54,6 +54,12 @@ GLYPHS = {
     "X": ["██  ██", " ████ ", "  ██  ", " ████ ", "██  ██"],
     "1": ["  ██  ", " ███  ", "  ██  ", "  ██  ", "██████"],
     "0": ["██████", "██  ██", "██  ██", "██  ██", "██████"],
+    "O": ["██████", "██  ██", "██  ██", "██  ██", "██████"],
+    "M": ["██████", "██  ██", "██  ██", "██  ██", "██  ██"],
+    "K": ["██  ██", "██ ██ ", "████  ", "██ ██ ", "██  ██"],
+    "A": [" ████ ", "██  ██", "██████", "██  ██", "██  ██"],
+    "S": [" █████", "██    ", " ████ ", "    ██", "█████ "],
+    " ": ["      ", "      ", "      ", "      ", "      "],
 }
 
 ROW_STAGGER = 0.09
@@ -153,7 +159,7 @@ def build():
                        7.5, tag_font + 3, CYAN, round(tag_begin + 0.95, 3)))
 
     height = int(tag_y + 34)
-    return panel(CANVAS_W, height, "thunderx10 — ~/profile",
+    return panel(CANVAS_W, height, "omkar-ramesh — ~/profile",
                  "".join(parts), gradients)
 
 

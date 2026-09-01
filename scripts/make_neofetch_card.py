@@ -32,7 +32,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_PATH = os.path.join(REPO_ROOT, "neofetch-card.svg")
 
 HEADER_USER = "omkar"
-HEADER_HOST = "thunderx10"
+HEADER_HOST = "omkar-ramesh"
 
 # Exact card content -- edit here, then re-run the script.
 ROWS = [

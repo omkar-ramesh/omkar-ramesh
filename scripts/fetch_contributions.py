@@ -12,7 +12,7 @@ with BeautifulSoup rather than calling any private/authenticated API.
 
 Output: data/contributions.json
   {
-    "username": "Thunderx10",
+    "username": "omkar-ramesh",
     "generated_at": "...",
     "days": [{"date": "2025-01-01", "count": 3, "level": 1}, ...],
     "total_contributions": 1234,
@@ -37,7 +37,7 @@ from bs4 import BeautifulSoup
 REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUTPUT_PATH = os.path.join(REPO_ROOT, "data", "contributions.json")
 
-DEFAULT_USERNAME = "Thunderx10"
+DEFAULT_USERNAME = "omkar-ramesh"
 USER_AGENT = "Mozilla/5.0 (compatible; profile-readme-bot/1.0)"
 
 

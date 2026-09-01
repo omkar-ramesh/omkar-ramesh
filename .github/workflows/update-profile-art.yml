@@ -32,7 +32,7 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Fetch latest contribution data
-        run: python scripts/fetch_contributions.py --username Thunderx10
+        run: python scripts/fetch_contributions.py --username omkar-ramesh
 
       - name: Render heatmap SVG
         run: python scripts/render_heatmap_svg.py
