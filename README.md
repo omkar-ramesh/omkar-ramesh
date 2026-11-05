@@ -1,44 +1,97 @@
-# Omkar Ramesh
+<img src="./hero-banner.svg" width="860" alt="THUNDERX10" />
 
-AI engineer and founder of Oniqutes Digital Solutions.
+<img src="./neofetch-card.svg" width="860" alt="neofetch — Omkar Ramesh, AI Engineer & Founder" />
 
-I build local-first AI agents, automation, and client web applications. Based in Pune, India.
+<img src="./agency-panel.svg" width="860" alt="Oniqutes Digital Solutions — AI agents, web applications, model training" />
 
-## Featured
+<img src="./knowledge-panel.svg" width="860" alt="Knowledge map — agent engineering, agent tooling, context engineering, model training, evals, reliability, automation, build stack" />
 
-### The Dissonance Router
+<img src="./hardware-panel.svg" width="860" alt="Workstation — RTX 5090, Mac Mini M4" />
 
-A personal AI agent that notices when what a user says they want differs from how they actually behave, and spends more reasoning when that happens. It shows why every time.
+<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap" />
 
-Results from the Meta version (200 live runs, 260 graded turns):
+---
 
-- 78.4% cheaper than always using Ultra
-- 89.6% of turns routed to the right tier
-- 66.8% less waiting
-- In a blind comparison, Nano was judged as good as Ultra 60% of the time (36 of 60)
+<details>
+<summary><b>How this profile is built</b></summary>
 
-Two versions:
+<br>
 
-- **Meta**: routes between Meta Muse Nano, Super and Ultra. Built for the Meta Global AI Developer Hackathon. [Code](https://github.com/omkar-ramesh/dissonance-router-meta) · [Live demo](https://dissonance-router-meta.onrender.com/) · [Demo video](https://www.youtube.com/watch?v=XFd8rvt0Pvg)
-- **NVIDIA / Nebius**: Nemotron Nano to Ultra on Nebius Token Factory. [Code](https://github.com/omkar-ramesh/The-dissonance-router)
+Six self-contained SVG panels, all 860px wide so they stack into one
+column. Every animation is **SMIL** — GitHub strips `<script>` and
+sanitizes inline CSS from README-embedded SVGs, but it does run SMIL
+inside images loaded via `<img>`. No JavaScript, no third-party badge
+services, no tracking pixels.
 
-## Other work
+The pixel art (GPU fans, service icons) is authored as character grids
+and rendered by [`scripts/sprites.py`](scripts/sprites.py), which
+collapses horizontal runs into single rects to keep file size down.
+Motion uses the classic flipbook trick — every frame drawn in place,
+visibility swapped on a discrete-timed loop — rather than transforms, so
+frames snap instead of cross-fading into motion blur.
 
-- [llm-cost-autopilot](https://github.com/omkar-ramesh/llm-cost-autopilot): OpenAI-compatible LLM gateway that routes prompts by complexity, enforces budgets, and checks quality with an LLM judge.
-- [llm-finetuning-rtx5090](https://github.com/omkar-ramesh/llm-finetuning-rtx5090): local LLM fine-tuning pipeline with Unsloth, MLflow and Ollama on an RTX 5090.
-- [mlops-cicd-pipeline](https://github.com/omkar-ramesh/mlops-cicd-pipeline): end-to-end MLOps pipeline (MLflow, Docker, GitHub Actions CI/CD) for fraud detection.
-- [client-ops-autopilot](https://github.com/omkar-ramesh/client-ops-autopilot): n8n workflows for lead intake, CRM sync and invoice follow-ups. Early build. <!-- TODO: Omkar to confirm or reword this one-liner -->
+Both columns of the neofetch card live inside a *single* SVG rather than
+a markdown table — GitHub's table rendering can't be relied on to hold
+two images in exact alignment, but an SVG's internal coordinates always
+will.
 
-## Stack
+### Panels
 
-- **Languages:** Python, PHP, JavaScript, HTML/CSS
-- **LLM and agents:** LiteLLM, Unsloth, PEFT, TRL, Hugging Face Transformers, Ollama
-- **MLOps:** MLflow, Evidently, Docker, GitHub Actions, pytest
-- **Web:** FastAPI, PostgreSQL, Redis, Prometheus
+| File | Source | Auto-updates |
+|---|---|---|
+| `hero-banner.svg` | `scripts/make_hero_banner.py` | ❌ manual |
+| `neofetch-card.svg` | `scripts/make_neofetch_card.py` | ❌ manual |
+| `agency-panel.svg` | `scripts/make_agency_panel.py` | ❌ manual |
+| `knowledge-panel.svg` | `scripts/make_knowledge_panel.py` | ❌ manual |
+| `hardware-panel.svg` | `scripts/make_hardware_panel.py` | ❌ manual |
+| `contrib-heatmap.svg` | `scripts/render_heatmap_svg.py` | ✅ daily |
 
-## Get in touch
+Shared palette, geometry and animation helpers live in
+[`scripts/theme.py`](scripts/theme.py) — change a color there and every
+panel follows.
 
-- GitHub: [omkar-ramesh](https://github.com/omkar-ramesh)
-- Site: TODO: link https://omkarramesh.dev once it is live
-- Email: omkarr1012@gmail.com <!-- TODO: Omkar to confirm before publishing -->
-- LinkedIn: TODO
+### Rebuild
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/build_all.py
+```
+
+`--static` skips the network fetch and rebuilds only the hand-authored
+panels:
+
+```bash
+python scripts/build_all.py --static
+```
+
+### Editing content
+
+- **Wordmark / tagline** → `WORDMARK`, `TAGLINE` in `make_hero_banner.py`
+- **Info rows** → `ROWS` in `make_neofetch_card.py`
+- **Agency + services** → `AGENCY_NAME`, `SERVICES` in `make_agency_panel.py`
+- **Knowledge categories** → `CATEGORIES` in `make_knowledge_panel.py`
+- **Machines** → `MACHINES` in `make_hardware_panel.py`
+- **Colors** → `theme.py`
+
+The knowledge panel deliberately carries **no proficiency bars, star
+ratings or percentages** — those numbers would be invented, since nothing
+measures them. It names domains; the repos are the evidence. Its layout
+is greedy-masonry (each card drops into the shortest column) and the
+`tree`-style footer count is computed from the data, so adding or
+removing topics can't desync the layout or the summary.
+
+### Contribution data
+
+`fetch_contributions.py` reads the public contribution calendar at
+`github.com/users/<username>/contributions` — the same HTML fragment that
+renders the graph on any public profile. No token, no API quota. The
+daily Action re-runs it and commits only the heatmap.
+
+</details>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/Thunderx10">github</a> ·
+  <sub>self-contained SVG + SMIL — no JavaScript, no third-party services</sub>
+</p>
